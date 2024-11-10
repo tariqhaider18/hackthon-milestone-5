@@ -1,0 +1,130 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    background-image: url(https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #4b4d5ea4;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px #00000033;
+    padding: 25px;
+    backdrop-filter: blur(8px);
+    color: #fdfdfd;
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 2px solid #3b5158;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(215, 221, 226, 0.9);
+}
+
+legend {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.2em;
+}
+
+/* Label and Input Styling */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #0c0c0c;
+    font-weight: 600;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #54636e;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #3684c4;
+    box-shadow: 0 0 5px rgba(54, 132, 196, 0.5);
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3684c4;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #285f8f;
+    transform: translateY(-2px);
+}
+
+/* Resume Output Container */
+#resumeOutput {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #54636e;
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Profile Picture Styling */
+.profilePicture {
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid #54636e;
+    box-shadow: 0 8px 16px rgba(98, 99, 98, 0.5);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profilePicture:hover {
+    transform: scale(1.05);
+}
